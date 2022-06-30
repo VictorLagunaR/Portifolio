@@ -1,0 +1,26 @@
+.sobre-mim{
+    background: var(--cor-fundo);
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-mim__titulo{
+    font-size: var(--titulo);
+    font-weight: 600;
+    color: var(--cor-texto);
+    margin-bottom: 1rem;
+}
+
+.sobre-mim__texto{
+    padding-bottom: .3rem ;
+    color: var(--cor-texto);
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width:1220px) {
+    .sobre-mim{
+        padding: 1rem 2rem;
+    }
+}

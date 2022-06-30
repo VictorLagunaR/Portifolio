@@ -1,0 +1,135 @@
+.contato{
+    padding: 1rem;
+    background: var(--cor-fundo);
+    
+}
+
+.contato__titulo{
+    color: var(--cor-texto);
+    font-size: var(--titulo);
+    font-weight: 600;
+
+    padding: 1rem;
+
+    text-align: center;
+}
+
+.contato__descricao{
+    font-size: 20px;
+    font-weight: 400;
+
+    padding: 1rem 0;
+}
+
+.contato__caixa{
+    position: relative;
+    width: 93.5%;
+    margin: 1.5rem 0;
+}
+
+.contato__input,.contato__texto{
+    border: none;
+    border-bottom: .125rem solid #929292;
+    border-radius: 3px;
+    display: flex;
+
+    font-size: 18px;
+    color: var(--cor-texto);
+    font-weight: 400;
+
+    position: relative;
+    padding: 30px 15px 5px 15px;
+
+    
+    outline: 0;
+    text-align:justify;
+    width: 100%;
+
+    transition: all .3s linear;
+
+}
+
+.contato__texto{
+    height: 150px;
+}
+
+.contato__input:focus, .contato__texto:focus{
+    border-bottom-color:var(--cor-borda);
+}
+
+
+.input__descricao{
+    color: #7c7c7c;
+    font-weight: 500;
+    position: absolute;
+
+    left: 15px;
+    top: 7px;
+}
+
+.contato__input:focus ~ .input__descricao, 
+.contato__texto:focus ~ .input__descricao{
+    color:var(--cor-borda);
+}
+
+.contato__enviar{
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid var(--cor-borda);
+    border-radius:3px;
+    background-color: var(--cor-borda);
+    color: #f3f3f3;
+    padding: 8px 30px;
+
+    transition: all .1s ease-in-out;
+}
+
+.contato__enviar:hover, .contato__enviar:focus{
+    cursor: pointer;
+    color: var(--cor-borda);
+    background-color: #ebebeb;
+}
+
+@media screen and (min-width:0px) {
+    .contato__imagem{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .contato__caixa{
+        width:97%
+    }
+}
+
+
+@media screen and (min-width:1220px) {
+
+    .contato{
+        padding: 1rem 2rem;
+        display: flex;
+        position: relative;
+        gap: 1.3rem;
+    }
+
+    .contato__caixa{
+        width:91.3%
+    }
+
+    .contato__formulario{
+        width: 60%;
+        position: relative;
+    }
+
+    .contato__imagem{
+        display: block;
+        position: relative;
+        width: 30%;
+        height: 668px;
+    }
+
+    .contato__enviar{
+        float: right;
+        margin-right: 2rem;
+    }
+}

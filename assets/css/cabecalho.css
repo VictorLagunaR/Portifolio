@@ -1,0 +1,85 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 19px;
+    align-items: center;
+    padding: 0 1rem;
+
+    background: #ebebeb;
+
+}
+
+.cabecalho__nome{
+    padding-left: 1rem;
+    position: relative;
+    line-height: 21px;
+}
+
+.cabecalho__nome:before{
+    content: '';
+    background: url(../imgs/estrela.png) no-repeat center;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: -5px;
+
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao__lista{
+    display: flex;
+}
+.lista__item{
+    padding:1rem 1rem;
+    border-bottom:2px solid transparent;
+    color: var(--cor-texto);
+}
+
+.lista__item:hover, .lista__item:focus{
+    background-color: var(--cor-fundo);;
+    border-color:rgb(14, 13, 13);
+}
+
+.lista__item{
+    display: none;
+}
+.lista__item:last-child{
+    display: block;
+}
+
+.item__link{
+    color: black;
+    text-decoration: none;
+}
+
+.item__email{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:1220px) {
+    .cabecalho{
+        padding: 0 2rem;
+        font-size: 17px;
+    }
+
+    .cabecalho__nome{
+        padding-left:2rem;
+    }
+
+    .cabecalho__nome:before{
+        left:7px;
+    }
+
+    .lista__item{
+        display: block;
+    }
+}

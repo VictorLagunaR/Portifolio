@@ -1,0 +1,124 @@
+.introducao{
+    padding: 1rem 1rem;/*muda*/
+}
+
+.introducao__secao{
+    display: flex;
+    flex-direction: column; /*muda*/
+    justify-content: center;
+    align-content: center;
+}
+
+
+.introducao__titulo{
+    font-weight: 700;
+    font-size: var(--titulo);
+    line-height: 40px; /*muda*/
+    text-align: match-parent;
+    padding: 1rem 0;
+    color: var(--cor-texto);
+}
+.introducao__texto{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    color: var(--cor-texto);
+}
+
+.introducao__links{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introducao__link img{
+    width: 10px;
+    height: 10px;
+}
+
+.introducao__link{
+    background: url(../imgs/vetor-link.png) no-repeat right center;
+
+    color: black;
+    text-decoration: none;
+    color: var(--cor-texto);
+    padding-right: 1rem;
+}
+
+.introducao__link:hover{
+    text-decoration: underline;
+}
+
+.introducao__imagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:768px) {
+    .introducao__secao{
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .introducao__conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+
+    .introducao__titulo{
+        line-height: 33px;
+        padding-bottom: .4rem;
+    }
+
+    .introducao__texto{
+        margin-bottom: 0;
+    }
+
+    .introducao__links{
+        justify-content: left;
+        gap: 2rem;
+    }
+
+    .introducao__imagem{
+        width: 450px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:1220px) {
+    .introducao__secao{
+        flex-direction: row-reverse;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+        
+    }
+
+    .introducao__conteudo{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+
+    .introducao__titulo{
+        line-height: 33px;
+        padding-bottom: .5rem;
+    }
+
+    .introducao__texto{
+        margin-bottom: .8rem;
+    }
+
+    .introducao__links{
+        justify-content: left;
+        gap: 2rem;
+    }
+
+    .introducao__imagem{
+        width: 350px;
+        height: 290px;
+    }
+}
