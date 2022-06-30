@@ -27,6 +27,10 @@
     margin: 1.5rem 0;
 }
 
+.contato__texto{
+    resize: none;
+}
+
 .contato__input,.contato__texto{
     border: none;
     border-bottom: .125rem solid #929292;
