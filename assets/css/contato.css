@@ -112,9 +112,6 @@
         gap: 1.3rem;
     }
 
-    .contato__caixa{
-        width:91.3%
-    }
 
     .contato__formulario{
         width: 60%;
@@ -130,6 +127,6 @@
 
     .contato__enviar{
         float: right;
-        margin-right: 2rem;
+        
     }
 }
