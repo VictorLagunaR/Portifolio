@@ -52,7 +52,6 @@
 
 .introducao__imagem{
     width: 150px;
-    height: 150px;
     border-radius: 50%;
 }
 
@@ -84,7 +83,7 @@
     }
 
     .introducao__imagem{
-        width: 450px;
+        width: 200px;
         height: 200px;
     }
 }
@@ -118,7 +117,7 @@
     }
 
     .introducao__imagem{
-        width: 350px;
-        height: 290px;
+        width: 300px;
+        height: 300px;
     }
 }
