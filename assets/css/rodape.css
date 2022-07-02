@@ -1,4 +1,6 @@
 .rodape{
+    background: #313131;
+    color: var(--cor-texto);
     text-align: center;
     padding: 2rem 3.5rem 1rem ;
     font-family: var(--font);

@@ -73,19 +73,22 @@
     border: 2px solid var(--cor-borda);
     border-radius:3px;
     background-color: var(--cor-borda);
-    color: #f3f3f3;
+    color: black;
+
+    font-size: 17px;
+
     padding: 10px;
 
     transition: all .1s ease-in-out;
 }
 
 .experiencia__imagem{
-    box-shadow: 6px 6px 5px #969696;
+    box-shadow: 6px 6px 5px #1d1d1d;
 }
 
 .descricao__repositorio:hover{
     background-color: var(--cor-borda);
-    color: #f3f3f3;
+    color: black;
 }
 
 .descricao__demo:hover{

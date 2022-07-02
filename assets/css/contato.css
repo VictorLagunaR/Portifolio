@@ -15,6 +15,8 @@
 }
 
 .contato__descricao{
+    color: var(--cor-texto);
+
     font-size: 20px;
     font-weight: 400;
 
@@ -35,11 +37,12 @@
     border: none;
     border-bottom: .125rem solid #929292;
     border-radius: 3px;
+    background: var(--cor-texto);
+    color: black;
     display: flex;
 
     font-size: 18px;
-    color: var(--cor-texto);
-    font-weight: 400;
+    font-weight: 500;
 
     position: relative;
     padding: 30px 15px 5px 15px;
@@ -91,7 +94,7 @@
 .contato__enviar:hover, .contato__enviar:focus{
     cursor: pointer;
     color: var(--cor-borda);
-    background-color: #ebebeb;
+    background-color: transparent;
 }
 
 @media screen and (min-width:0px) {

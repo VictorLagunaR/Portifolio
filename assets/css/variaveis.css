@@ -1,7 +1,7 @@
 :root{
-    --cor-borda:#2A7AE4;
-    --cor-fundo:#cde2e0;
-    --cor-texto:#2e2e2e;
+    --cor-borda:rgb(124, 187, 212);
+    --cor-fundo:#131313;
+    --cor-texto:#e6e6e6;
 
     --titulo:1.71rem;
     --font:Raleway, Arial;

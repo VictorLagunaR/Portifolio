@@ -1,4 +1,5 @@
 .cabecalho{
+    color: var(--cor-texto);
     display: flex;
     justify-content: space-between;
     font-weight: 500;
@@ -8,7 +9,7 @@
     align-items: center;
     padding: 0 1rem;
 
-    background: #ebebeb;
+    background: #313131;
 
 }
 
@@ -56,12 +57,12 @@
 }
 
 .item__link{
-    color: black;
+    color: var(--cor-texto);
     text-decoration: none;
 }
 
 .item__email{
-    color: black;
+    color: var(--cor-texto);
     text-decoration: none;
 }
 
