@@ -107,6 +107,14 @@
 
 @media screen and (min-width:1220px) {
 
+    .descricao__demo,.descricao__repositorio{
+        transition: all .2s ease-out;
+    }
+
+    .descricao__demo:hover,.descricao__repositorio:hover{
+        transform: scale(1.08);
+    }
+
     .experiencias{
         padding: 2rem 3rem;
     }

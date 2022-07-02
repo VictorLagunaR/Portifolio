@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+    border-radius: 5px;
 }
 
 .hobbie__imagem{
@@ -51,6 +52,16 @@
 
     .hobbies{
         padding: 1rem 3rem;
+    }
+
+    .hobbie{
+        transition: all .3s ease-in-out;
+    }
+
+    .hobbie:hover{
+        box-shadow: 0px 0px 5px 5px #cecece;
+        transform: scale(1.1);
+        z-index: 1;
     }
 
     .hobbies__secao{

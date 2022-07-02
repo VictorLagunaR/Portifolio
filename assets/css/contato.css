@@ -123,14 +123,19 @@
     }
 
     .contato__imagem{
+        border-radius: 8px;
         display: block;
         position: relative;
-        width: 30%;
+        width: auto;
         height: 668px;
     }
 
     .contato__enviar{
         float: right;
-        
+        transition: all .2s ease-out;   
+    }
+
+    .contato__enviar:hover{
+        transform: scale(1.08);
     }
 }
