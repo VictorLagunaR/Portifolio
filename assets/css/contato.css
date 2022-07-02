@@ -41,6 +41,7 @@
     color: black;
     display: flex;
 
+    font-family: var(--font);
     font-size: 18px;
     font-weight: 500;
 

@@ -14,16 +14,17 @@
 }
 
 .cabecalho__nome{
-    padding-left: 1rem;
+    padding-left: 2rem;
     position: relative;
     line-height: 21px;
+    text-align: center;
 }
 
 .cabecalho__nome:before{
     content: '';
     background: url(../imgs/estrela.png) no-repeat center;
-    width: 21px;
-    height: 21px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     left: -5px;
 
@@ -46,7 +47,7 @@
 
 .lista__item:hover, .lista__item:focus{
     background-color: var(--cor-fundo);;
-    border-color:rgb(14, 13, 13);
+    border-color:var(--cor-borda);
 }
 
 .lista__item{
