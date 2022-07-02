@@ -18,6 +18,11 @@
     padding: 1rem 0;
     color: var(--cor-texto);
 }
+
+.nome-destaque{
+    color: var(--cor-borda);
+}
+
 .introducao__texto{
     font-size: 22px;
     font-weight: 400;
@@ -106,7 +111,7 @@
 @media screen and (min-width:1220px) {
     .introducao__secao{
         flex-direction: row-reverse;
-        padding: 1rem 2rem;
+        padding: 1rem 5rem;
         justify-content: space-between;
         
     }

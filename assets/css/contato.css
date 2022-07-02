@@ -113,7 +113,7 @@
 @media screen and (min-width:1220px) {
 
     .contato{
-        padding: 1rem 3rem;
+        padding: 1rem 6rem;
         display: flex;
         position: relative;
         gap: 1.3rem;
@@ -129,6 +129,7 @@
         border-radius: 8px;
         display: block;
         position: relative;
+        margin-right: 2rem;
         width: auto;
         height: 668px;
     }
