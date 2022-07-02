@@ -143,6 +143,6 @@
     }
 
     .introducao__imagem:hover{
-        outline: 5px solid #747474;
+        outline: 5px solid var(--cor-borda);
     }
 }
