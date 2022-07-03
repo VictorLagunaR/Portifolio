@@ -23,8 +23,12 @@
 }
 
 .experiencia__imagem{
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px #1d1d1d;
+
     width: 100%;
     height: 250px;
+    
 }
 
 .experiencia__descricao{
@@ -80,10 +84,6 @@
     padding: 10px;
 
     transition: all .1s ease-in-out;
-}
-
-.experiencia__imagem{
-    box-shadow: 6px 6px 5px #1d1d1d;
 }
 
 .descricao__repositorio:hover{

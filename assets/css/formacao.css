@@ -32,6 +32,7 @@
     height: 240px;
     background: #fcf7f7;
     align-content: center;
+    border-radius: 5px ;
 }
 
 .descricao__nome, .descricao__periodo{
