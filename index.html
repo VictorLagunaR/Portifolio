@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat&family=Oswald:wght@311&family=Poppins&family=Raleway:wght@300;400;500&display=swap"
      rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/corpo.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/introducao.css">
@@ -28,7 +26,7 @@
 </head>
 <body>
     <header class="cabecalho" id="cabecalho">
-        <p class="cabecalho__nome">Victor Laguna Rodrigues</p>
+        <h3 class="cabecalho__nome">Victor Laguna Rodrigues</h3>
         <nav class="navegacao">
             <ul class="navegacao__lista">
                 <li class="lista__item"><a href="#sobre-mim" class="item__link">Sobre mim </a></li>
@@ -38,8 +36,6 @@
                 <li class="lista__item"><a href="#experiencia" class="item__link">Projetos</a></li>
                <li class="lista__item"><a href="#contato" class="item__link">Contato</a></li>
             </ul>
-            <button><span class="material-symbols-outlined">menu</span></button>
-            <button><span class="material-symbols-outlined">close</span></button>
         </nav>
     </header>
     <main>
@@ -203,19 +199,19 @@
                     Preencha o formulário e entrarei em contato o mais rápido possível.
                 </p>
                 <div class="contato__caixa">
-                    <input type="text" name="Nome" id="nome" class="contato__input">
+                    <input type="text" name="Nome" id="nome" class="contato__input" required>
                     <label for="nome" class="input__descricao">Nome</label>
                 </div>
                 <div class="contato__caixa">
-                    <input type="email" name="email" id="email" class="contato__input">
+                    <input type="email" name="email" id="email" class="contato__input" required> 
                     <label for="email" class="input__descricao">Email</label>
                 </div>
                 <div class="contato__caixa">
-                    <input type="text" name="assunto" id="assunto" class="contato__input">
+                    <input type="text" name="assunto" id="assunto" class="contato__input" required>
                     <label for="assunto" class="input__descricao">Assunto</label>
                 </div>
                 <div class="contato__caixa">
-                    <textarea name="mensagem" id="caixa-de-mensagem" class="contato__texto"></textarea>
+                    <textarea name="mensagem" id="caixa-de-mensagem" class="contato__texto" required></textarea>
                     <label for="caixa-de-mensagem" class="input__descricao">Mensagem</label>
                 </div>
                 <input type="submit" value="Enviar" class="contato__enviar">
