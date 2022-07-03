@@ -1,12 +1,29 @@
+
+.img-seta{
+    transform: rotate(90deg);
+}
+
 .seta{
     position: fixed;
     bottom: 1rem;
-    right: 2rem;
+    right: 1rem;
     border-radius: 50%;
-    border: 5px solid var(--cor-borda);
-    padding: .5rem;
+    border: 4px solid var(--cor-borda);
+    background: rgba(0, 0, 0, 0.555);
 }
 
 .img-seta{
     transform: rotate(90deg);
+    width: 25px;
+    padding: .5rem;
+}
+
+@media screen and (min-width:1220px) {
+    .seta{
+        background-color: transparent;
+    }
+    
+    .img-seta{
+        width: auto;
+    }
 }

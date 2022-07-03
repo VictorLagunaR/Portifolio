@@ -58,7 +58,7 @@
 }
 
 #github:hover, #github:focus{
-    color: rgb(19, 19, 19);
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
@@ -143,6 +143,6 @@
     }
 
     .introducao__imagem:hover{
-        outline: 5px solid var(--cor-borda);
+        box-shadow: -5px 5px 2px 3px var(--cor-borda);
     }
 }
