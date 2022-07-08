@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="shortcut icon" href="/assets/imgs/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/contato.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="stylesheet" href="assets/css/seta.css">
+    <link rel="stylesheet" href="assets/css/animacoes.css">
 
     <title>Portifólio Victor Laguna</title>
 </head>
@@ -39,7 +41,7 @@
         </nav>
     </header>
     <main>
-        <section class="introducao">
+        <section class="introducao" data-anime="right">
             <div class="introducao__secao">
                 <img class="introducao__imagem" src="./assets/imgs/perfil.jpg" alt="Imagem de perfil">
                 <div class="introducao__conteudo">
@@ -54,7 +56,7 @@
             </div>
             
         </section>
-        <section class="sobre-mim" id="sobre-mim">
+        <section class="sobre-mim" data-anime="left" id="sobre-mim">
             <h2 class="sobre-mim__titulo">Sobre mim</h2>
             <p class="sobre-mim__texto">Estudante de Desenvolvimento de Sistemas. 
                 Em busca de atuação na área para adquirir experiência e crescimento com desenvolvimento Front-End e Back-End utilizando as linguagens: Java, JavaScript, PHP, SQL.
@@ -62,9 +64,9 @@
             <p class="sobre-mim__texto">Prezo a todo momento trabalhar em equipe, contribuir para o crescimento buscando melhor resultado.
                 Pode-se tirar tudo de um indivíduo, mas nunca o Conhecimento!</p>
         </section>
-        <section class="skills" id="skills">
+        <section class="skills"  id="skills">
             <h3 class="skills__titulo">Skills</h3>
-            <div class="skills__secao">
+            <div class="skills__secao" data-anime="top">
                 <div class="skills__linguagem">
                     <img class="skills__linguagem-imagem" src="assets/imgs/html-5.png">
                     <h4 class="skills__linguagem-nome">HTML 5</h4>
@@ -93,7 +95,7 @@
         </section>
         <section class="hobbies" id="hobbies">
             <h3 class="hobbies__titulo">Hobbies</h3>
-            <div class="hobbies__secao">
+            <div class="hobbies__secao" data-anime="top">
                 <div class="hobbie">
                     <img class="hobbie__imagem" src="assets/imgs/volley-ball.png">
                     <h4 class="hobbie__nome">Jogar Volêi</h4>
@@ -116,7 +118,7 @@
                 </div>
             </div>
         </section>
-        <section class="formacoes" id="formacoes">
+        <section class="formacoes" id="formacoes" data-anime="right">
             <h3 class="formacoes__titulo">Formação Acadêmica</h3>
             <div class="formacoes__secao">
                 <div class="formacao">
@@ -151,7 +153,7 @@
         </section>
         <section class="experiencias" id="experiencia">
             <h3 class="experiencias__titulo">Experiência profissional</h3>
-            <div class="experiencia">
+            <div class="experiencia" data-anime="left">
                 <figure>
                     <img src="assets/imgs/ong-x.jpg" alt="Imagem do site ONG-X" class="experiencia__imagem">
                 </figure>
@@ -164,7 +166,7 @@
                     </div>
                 </figcaption>
             </div>
-            <div class="experiencia">
+            <div class="experiencia" data-anime="right">
                 <figure>
                     <img src="assets/imgs/codificador.jpg" alt="Site de codificar texto" class="experiencia__imagem">
                 </figure>
@@ -177,7 +179,7 @@
                     </div>
                 </div>
             </div>
-            <div class="experiencia">
+            <div class="experiencia" data-anime="left">
                 <figure>
                     <img src="assets/imgs/forca.jpg" alt="Site para jogar da forca" class="experiencia__imagem">
                 </figure>
@@ -191,7 +193,7 @@
                 </figcaption>
             </div>
         </section>
-        <section class="contato" id="contato">
+        <section class="contato" id="contato" data-anime="bottom">
             <img src="assets/imgs/telefone.jpg" class="contato__imagem">
             <form action="https://formspree.io/f/mrgjwzwr" method="post" class="contato__formulario">
                 <h5 class="contato__titulo">Contato</h5>
@@ -228,5 +230,7 @@
     <div class="seta">
         <a href="#cabecalho" class="seta__link"><img src="assets/imgs/seta.png" class="img-seta" alt="Voltar ao topo da página"></a>
     </div>
+
+    <script src="/assets/js/animacao.js"></script>
 </body>
 </html>
