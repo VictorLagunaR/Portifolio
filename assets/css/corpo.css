@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #313131;
+    background-color: var(--cor-fundo);
     font-family: var(--font);
     position: relative;
     max-width: 100vw;

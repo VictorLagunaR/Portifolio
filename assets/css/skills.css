@@ -11,14 +11,17 @@
 }
 
 .skills__secao{
+    background-color: var(--cor-secao);
+    border-radius: 5px;
     display: grid;
     column-gap: .5rem;
     gap: 2rem 1rem;
     grid-template-columns: auto auto;
+    place-items: center;
 }
 
 .skills__linguagem{
-    background-color: var(--cor-fundo);
+    align-items: center;
     border-radius: 5px;
     height: 105px;
     padding: 1.4rem;
@@ -26,18 +29,17 @@
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+    width: 100%;
 }
 
 .skills__linguagem-imagem{
     width: 45px;
     height: 45px;
-    padding-bottom: 2rem;
-    position: absolute;
-    left: 14px;
+    padding-bottom: 1rem;
 }
 
 .skills__linguagem-nome{
-    color: rgb(124, 187, 212);
+    color: rgb(84, 187, 228);
     font-weight: 600;
 }
 

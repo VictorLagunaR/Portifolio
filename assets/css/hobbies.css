@@ -12,14 +12,17 @@
 }
 
 .hobbies__secao{
+    background-color: var(--cor-secao);
+    border-radius: 5px;
     display: grid;
     column-gap: .5rem;
     gap: 2rem 1rem;
     grid-template-columns: auto auto;
+    place-items: center;
 }
 
 .hobbie{
-    background-color: var(--cor-fundo);
+    align-items: center;
     height: 105px;
     padding: 1.4rem;
     display: flex;
@@ -27,18 +30,18 @@
     justify-content: flex-end;
     position: relative;
     border-radius: 5px;
+    width: 100%;
 }
 
 .hobbie__imagem{
     width: 45px;
     height: 45px;
-    padding-bottom: 2rem;
-    position: absolute;
-    left: 14px;
+    padding-bottom: 1rem;
+
 }
 
 .hobbie__nome{
-    color: rgb(124, 187, 212);
+    color: rgb(84, 187, 228);
     font-weight: 600;
 }
 
