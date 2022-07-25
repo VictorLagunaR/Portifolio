@@ -22,6 +22,7 @@
 
 .skills__linguagem{
     align-items: center;
+    background-color: var(--cor-secao);
     border-radius: 5px;
     height: 105px;
     padding: 1.4rem;
@@ -66,7 +67,7 @@
     }
     .skills__linguagem:hover{
         box-shadow: 0px 0px 5px 5px #525252;
-        transform: scale(1.1);
+        transform: scale(1.05);
         z-index: 1;
     }
 }

@@ -23,6 +23,7 @@
 
 .hobbie{
     align-items: center;
+    background-color: var(--cor-secao);
     height: 105px;
     padding: 1.4rem;
     display: flex;
@@ -63,7 +64,7 @@
 
     .hobbie:hover{
         box-shadow: 0px 0px 4px 5px #525252;
-        transform: scale(1.1);
+        transform: scale(1.05);
         z-index: 1;
     }
 
