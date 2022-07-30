@@ -1,5 +1,5 @@
 .contato{
-    padding: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
     background: var(--cor-fundo);
     
 }
@@ -9,7 +9,7 @@
     font-size: var(--titulo);
     font-weight: 600;
 
-    padding: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
 
     text-align: center;
 }
@@ -25,7 +25,7 @@
 
 .contato__caixa{
     position: relative;
-    width: 93.5%;
+    width: 91%;
     margin: 1.5rem 0;
 }
 

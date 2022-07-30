@@ -23,8 +23,8 @@
 
 .hobbie{
     align-items: center;
-    background-color: var(--cor-secao);
-    height: 105px;
+    background-color: transparent;
+    height: auto;
     padding: 1.4rem;
     display: flex;
     flex-direction: column;
@@ -59,6 +59,7 @@
     }
 
     .hobbie{
+        background-color: var(--cor-secao);
         transition: all .3s ease-in-out;
     }
 

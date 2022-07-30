@@ -22,9 +22,9 @@
 
 .skills__linguagem{
     align-items: center;
-    background-color: var(--cor-secao);
+    background-color: transparent;
     border-radius: 5px;
-    height: 105px;
+    height: auto;
     padding: 1.4rem;
     display: flex;
     flex-direction: column;
@@ -63,6 +63,7 @@
     }
 
     .skills__linguagem{
+        background-color: var(--cor-secao);
         transition: all .3s ease-in-out;
     }
     .skills__linguagem:hover{
