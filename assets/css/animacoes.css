@@ -30,9 +30,15 @@
     transform: translate3d(0,0,0);
 }
 
-.introducao__links{
+[data-anime="maquinaDeEscrever"]{
+    opacity:0;
+    transition: none;
+    
+}
+
+[data-anime="maquinaDeEscrever"].animate{
     animation: 
-    typing 3.5s steps(40, end),
+    typing 3.5s steps(42, end),
     blink-caret .5s step-end infinite;
 }
 
