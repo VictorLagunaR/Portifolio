@@ -49,9 +49,9 @@
 
 .lista__item:hover, .lista__item:active{
     /* Created with https://www.css-gradient.com */
-    background: -webkit-radial-gradient(bottom, #039edb, #222222 45%);
-    background: -moz-radial-gradient(bottom, #039edb, #222222 45%);
-    background: radial-gradient(to top, #039edb, #222222 45%);
+    background: -webkit-radial-gradient(bottom, #039edb, #131313 30%);
+    background: -moz-radial-gradient(bottom, #039edb, #131313 30%);
+    background: radial-gradient(to top, #039edb, #131313 30%);
     border-color:var(--cor-borda);
 }
 
