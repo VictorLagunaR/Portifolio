@@ -106,7 +106,7 @@
 
 @media screen and (min-width:768px) {
     .contato__caixa{
-        width:97%
+        width:95%
     }
 }
 
@@ -131,8 +131,7 @@
         display: block;
         position: relative;
         margin-right: 2rem;
-        width: auto;
-        height: 668px;
+        height: 100%;
     }
 
     .contato__enviar{
