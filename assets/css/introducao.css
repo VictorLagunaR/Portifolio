@@ -43,7 +43,7 @@
     gap: .5rem;
     justify-content: space-between;
     border-right: .15em solid;
-    overflow: hidden;
+    overflow-x: hidden;
     letter-spacing: .13em;
     width: fit-content;
     block-size: fit-content;
@@ -55,12 +55,17 @@
 }
 
 .introducao__link{
-    background: url(../imgs/vetor-link.png) no-repeat right center;
+    
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: left;
+    border-radius: 2px;
+    transition: background-size .8s;
     border-bottom: 3px solid transparent;
     text-decoration: none;
     color: var(--cor-texto);
-    padding-right: 1rem;
-    transition: all .2s ease-out;
+    padding: .3rem .5rem .3rem .2rem;
+    transition: all .5s ease-out;
 }
 
 .introducao__imagem-animacao{
@@ -100,21 +105,36 @@
     animation: rotate 1.7s infinite;
 }
 
+#github{
+    background-image: linear-gradient(#949494, #949494);
+}
+
+#linkedin{
+    background-image: linear-gradient(#039edb, #039edb);
+}
+
+#instagram{
+    background-image: linear-gradient(#9967da, #9967da);
+}
+
 #github:hover, #github:focus{
-    color: rgb(148, 148, 148);
-    font-weight: 500;
+    background-size: 100% 100%;
+    background-position-x: right;
 }
 
 #linkedin:hover, #linkedin:focus{
-    color: var(--cor-borda);
+    background-size: 100% 100%;
+    background-position-x: right;
 }
 
 #instagram:hover, #instagram:focus{
-    color: rgb(153, 103, 218);
+    background-size: 100% 100%;
+    background-position-x: right;
 }
 
 #curriculo:hover, #curriculo:focus{
-    text-decoration: underline;
+    background-size: 100% 100%;
+    background-position-x: right;
 }
 
 
