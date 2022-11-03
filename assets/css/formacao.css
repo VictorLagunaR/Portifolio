@@ -53,6 +53,7 @@
 @media screen and (min-width:768px) {
     .formacoes__secao{
         grid-template-columns: auto auto auto;
+        justify-content: space-between;
     }
 }
 
@@ -63,11 +64,17 @@
     }
 
     .formacoes__secao{
-        gap: 2rem;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 350px 350px 350px;
     }
 
     .formacao{
         max-width: 400px;
     }
+}
+
+@media screen and (min-width:1520px) {
+    .formacoes__secao{
+        grid-template-columns:max-content max-content max-content;
+    }
+
 }

@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: var(--titulo);
     letter-spacing: .15em;
-    line-height: 40px; /*muda*/
+    line-height: 43px; /*muda*/
     text-align: match-parent;
     padding: 1rem 0;
     color: var(--cor-texto);
@@ -26,6 +26,7 @@
 .nome-destaque{
     color: var(--cor-borda);
 }
+
 
 .introducao__texto{
     font-size: 22px;
