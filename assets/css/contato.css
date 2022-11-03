@@ -35,7 +35,7 @@
 
 .contato__input,.contato__texto{
     border: none;
-    border-bottom: .125rem solid #929292;
+    border-bottom: .17rem solid #929292;
     border-radius: 3px;
     background: var(--cor-texto);
     color: black;
