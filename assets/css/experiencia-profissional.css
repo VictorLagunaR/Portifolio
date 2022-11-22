@@ -110,6 +110,7 @@
 
 @media screen and (min-width:1220px) {
 
+
     .descricao__demo,.descricao__repositorio{
         transition: all .2s ease-out;
     }
@@ -133,8 +134,14 @@
 
     }
 
-    .experiencia__descricao{
-        padding: 0 2rem;
+    .experiencia .descricao__botoes{
+        justify-content: right;
+        text-align: right;
+    }
+
+    .experiencia:nth-child(2n) .descricao__botoes{
+        justify-content: left;
+        text-align: left;
     }
 
     .experiencia__imagem{

@@ -25,7 +25,7 @@
 
 .contato__caixa{
     position: relative;
-    width: 91%;
+    width: 100%;
     margin: 1.5rem 0;
 }
 
@@ -40,19 +40,14 @@
     background: var(--cor-texto);
     color: black;
     display: flex;
-
     font-family: var(--font);
     font-size: 18px;
     font-weight: 500;
-
     position: relative;
-    padding: 30px 15px 5px 15px;
-
-    
+    padding: 30px 15px 5px 15px;   
     outline: 0;
     text-align:justify;
-    width: 100%;
-
+    width: calc(100% - 30px);
     transition: all .3s linear;
 
 }
@@ -106,7 +101,7 @@
 
 @media screen and (min-width:768px) {
     .contato__caixa{
-        width:95%
+        width:100%
     }
 }
 
@@ -122,7 +117,7 @@
 
 
     .contato__formulario{
-        width: 60%;
+        width: 100%;
         position: relative;
     }
 
